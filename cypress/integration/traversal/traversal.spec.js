@@ -1,9 +1,7 @@
 ///<reference types="cypress"/>
 
 describe('Traversal Methods',function(){
-    Cypress.on('uncaught:exception',(err,runnable)=>{
-        return false
-    })
+
     it.skip('TR01-first',()=>{
         cy.visit('https://www.flipkart.com/')
         cy.get('._3704LK').type('i phone')
