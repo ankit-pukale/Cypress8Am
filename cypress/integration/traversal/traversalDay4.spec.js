@@ -6,7 +6,7 @@
 .siblings()
  */
 describe('Traversal Dat4', () => {
-    it('nextAll', () => {
+    it('find', () => {
         cy.visit('https://www.flipkart.com/')
         cy.wait(10000)
         cy.get('._2Brcj4').first().scrollIntoView().find('a')
