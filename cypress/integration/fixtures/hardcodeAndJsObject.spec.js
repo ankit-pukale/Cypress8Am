@@ -12,7 +12,7 @@ describe('fixtures', () => {
         email:"testEmail2@gmail.com",
         msg:"this is test datdsadasdsadsaa2",
         successMsg:'Thanks for contacting us! We will get in touch with you shortly.'
-    }]
+    }] 
     // it('hardcoded values',()=>{
     //     cy.visit('https://www.weifieldcontracting.com/contact/')
     //     cy.get('[name="input_1.3"]').type('testName')
